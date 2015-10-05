@@ -1,0 +1,4218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="97">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root=".." name="0">
+      <df name="build">
+        <df name="CMakeFiles">
+          <df name="3.0.1">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <df name="3.1.0">
+            <df name="CompilerIdC">
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+        </df>
+        <df name="ext">
+          <df name="freetype">
+            <df name="include">
+              <in>ftconfig.h</in>
+            </df>
+          </df>
+          <df name="glfw">
+            <df name="src">
+              <in>glfw_config.h</in>
+            </df>
+          </df>
+        </df>
+        <df name="res">
+          <df name="shader">
+            <in>fontFragment.c</in>
+            <in>fontVertex.c</in>
+            <in>fragment.c</in>
+            <in>vertex.c</in>
+          </df>
+        </df>
+        <df name="shader">
+          <in>fontFragment.c</in>
+          <in>fontVertex.c</in>
+          <in>fragment.c</in>
+          <in>vertex.c</in>
+        </df>
+      </df>
+      <df name="ext">
+        <df name="freetype">
+          <df name="builds">
+            <df name="amiga">
+              <df name="include">
+                <df name="config">
+                  <in>ftconfig.h</in>
+                  <in>ftmodule.h</in>
+                </df>
+              </df>
+              <df name="src">
+                <df name="base">
+                  <in>ftdebug.c</in>
+                  <in>ftsystem.c</in>
+                </df>
+              </df>
+            </df>
+            <df name="atari">
+              <in>ATARI.H</in>
+            </df>
+            <df name="mac">
+              <in>ftmac.c</in>
+            </df>
+            <df name="unix">
+              <in>ftsystem.c</in>
+            </df>
+            <df name="vms">
+              <in>ftconfig.h</in>
+              <in>ftsystem.c</in>
+            </df>
+            <df name="wince">
+              <in>ftdebug.c</in>
+            </df>
+            <df name="windows">
+              <in>ftdebug.c</in>
+            </df>
+          </df>
+          <df name="devel">
+            <in>ft2build.h</in>
+            <in>ftoption.h</in>
+          </df>
+          <df name="include">
+            <df name="config">
+              <in>ftconfig.h</in>
+              <in>ftheader.h</in>
+              <in>ftmodule.h</in>
+              <in>ftoption.h</in>
+              <in>ftstdlib.h</in>
+            </df>
+            <df name="internal">
+              <df name="services">
+                <in>svbdf.h</in>
+                <in>svcid.h</in>
+                <in>svgldict.h</in>
+                <in>svgxval.h</in>
+                <in>svkern.h</in>
+                <in>svmm.h</in>
+                <in>svotval.h</in>
+                <in>svpfr.h</in>
+                <in>svpostnm.h</in>
+                <in>svprop.h</in>
+                <in>svpscmap.h</in>
+                <in>svpsinfo.h</in>
+                <in>svsfnt.h</in>
+                <in>svttcmap.h</in>
+                <in>svtteng.h</in>
+                <in>svttglyf.h</in>
+                <in>svwinfnt.h</in>
+                <in>svxf86nm.h</in>
+              </df>
+              <in>autohint.h</in>
+              <in>ftcalc.h</in>
+              <in>ftdebug.h</in>
+              <in>ftdriver.h</in>
+              <in>ftgloadr.h</in>
+              <in>ftmemory.h</in>
+              <in>ftobjs.h</in>
+              <in>ftpic.h</in>
+              <in>ftrfork.h</in>
+              <in>ftserv.h</in>
+              <in>ftstream.h</in>
+              <in>fttrace.h</in>
+              <in>ftvalid.h</in>
+              <in>internal.h</in>
+              <in>psaux.h</in>
+              <in>pshints.h</in>
+              <in>sfnt.h</in>
+              <in>t1types.h</in>
+              <in>tttypes.h</in>
+            </df>
+            <in>freetype.h</in>
+            <in>ft2build.h</in>
+            <in>ftadvanc.h</in>
+            <in>ftautoh.h</in>
+            <in>ftbbox.h</in>
+            <in>ftbdf.h</in>
+            <in>ftbitmap.h</in>
+            <in>ftbzip2.h</in>
+            <in>ftcache.h</in>
+            <in>ftcffdrv.h</in>
+            <in>ftchapters.h</in>
+            <in>ftcid.h</in>
+            <in>ftconfig.h</in>
+            <in>fterrdef.h</in>
+            <in>fterrors.h</in>
+            <in>ftgasp.h</in>
+            <in>ftglyph.h</in>
+            <in>ftgxval.h</in>
+            <in>ftgzip.h</in>
+            <in>ftimage.h</in>
+            <in>ftincrem.h</in>
+            <in>ftlcdfil.h</in>
+            <in>ftlist.h</in>
+            <in>ftlzw.h</in>
+            <in>ftmac.h</in>
+            <in>ftmm.h</in>
+            <in>ftmodapi.h</in>
+            <in>ftmoderr.h</in>
+            <in>ftotval.h</in>
+            <in>ftoutln.h</in>
+            <in>ftpfr.h</in>
+            <in>ftrender.h</in>
+            <in>ftsizes.h</in>
+            <in>ftsnames.h</in>
+            <in>ftstroke.h</in>
+            <in>ftsynth.h</in>
+            <in>ftsystem.h</in>
+            <in>fttrigon.h</in>
+            <in>ftttdrv.h</in>
+            <in>fttypes.h</in>
+            <in>ftwinfnt.h</in>
+            <in>ftxf86.h</in>
+            <in>t1tables.h</in>
+            <in>ttnameid.h</in>
+            <in>tttables.h</in>
+            <in>tttags.h</in>
+            <in>ttunpat.h</in>
+          </df>
+          <df name="src">
+            <df name="autofit">
+              <in>afangles.c</in>
+              <in>afangles.h</in>
+              <in>afblue.c</in>
+              <in>afblue.h</in>
+              <in>afcjk.c</in>
+              <in>afcjk.h</in>
+              <in>afcover.h</in>
+              <in>afdummy.c</in>
+              <in>afdummy.h</in>
+              <in>aferrors.h</in>
+              <in>afglobal.c</in>
+              <in>afglobal.h</in>
+              <in>afhints.c</in>
+              <in>afhints.h</in>
+              <in>afindic.c</in>
+              <in>afindic.h</in>
+              <in>aflatin.c</in>
+              <in>aflatin.h</in>
+              <in>aflatin2.c</in>
+              <in>aflatin2.h</in>
+              <in>afloader.c</in>
+              <in>afloader.h</in>
+              <in>afmodule.c</in>
+              <in>afmodule.h</in>
+              <in>afpic.c</in>
+              <in>afpic.h</in>
+              <in>afranges.c</in>
+              <in>afranges.h</in>
+              <in>afscript.h</in>
+              <in>afstyles.h</in>
+              <in>aftypes.h</in>
+              <in>afwarp.c</in>
+              <in>afwarp.h</in>
+              <in>afwrtsys.h</in>
+              <in>autofit.c</in>
+              <in>hbshim.c</in>
+              <in>hbshim.h</in>
+            </df>
+            <df name="base">
+              <in>basepic.c</in>
+              <in>basepic.h</in>
+              <in>ftadvanc.c</in>
+              <in>ftapi.c</in>
+              <in>ftbase.c</in>
+              <in>ftbase.h</in>
+              <in>ftbbox.c</in>
+              <in>ftbdf.c</in>
+              <in>ftbitmap.c</in>
+              <in>ftcalc.c</in>
+              <in>ftcid.c</in>
+              <in>ftdbgmem.c</in>
+              <in>ftdebug.c</in>
+              <in>ftfstype.c</in>
+              <in>ftgasp.c</in>
+              <in>ftgloadr.c</in>
+              <in>ftglyph.c</in>
+              <in>ftgxval.c</in>
+              <in>ftinit.c</in>
+              <in>ftlcdfil.c</in>
+              <in>ftmac.c</in>
+              <in>ftmm.c</in>
+              <in>ftobjs.c</in>
+              <in>ftotval.c</in>
+              <in>ftoutln.c</in>
+              <in>ftpatent.c</in>
+              <in>ftpfr.c</in>
+              <in>ftpic.c</in>
+              <in>ftrfork.c</in>
+              <in>ftsnames.c</in>
+              <in>ftstream.c</in>
+              <in>ftstroke.c</in>
+              <in>ftsynth.c</in>
+              <in>ftsystem.c</in>
+              <in>fttrigon.c</in>
+              <in>fttype1.c</in>
+              <in>ftutil.c</in>
+              <in>ftwinfnt.c</in>
+              <in>ftxf86.c</in>
+              <in>md5.c</in>
+              <in>md5.h</in>
+            </df>
+            <df name="bdf">
+              <in>bdf.c</in>
+              <in>bdf.h</in>
+              <in>bdfdrivr.c</in>
+              <in>bdfdrivr.h</in>
+              <in>bdferror.h</in>
+              <in>bdflib.c</in>
+            </df>
+            <df name="bzip2">
+              <in>ftbzip2.c</in>
+            </df>
+            <df name="cache">
+              <in>ftcache.c</in>
+              <in>ftcbasic.c</in>
+              <in>ftccache.c</in>
+              <in>ftccache.h</in>
+              <in>ftccback.h</in>
+              <in>ftccmap.c</in>
+              <in>ftcerror.h</in>
+              <in>ftcglyph.c</in>
+              <in>ftcglyph.h</in>
+              <in>ftcimage.c</in>
+              <in>ftcimage.h</in>
+              <in>ftcmanag.c</in>
+              <in>ftcmanag.h</in>
+              <in>ftcmru.c</in>
+              <in>ftcmru.h</in>
+              <in>ftcsbits.c</in>
+              <in>ftcsbits.h</in>
+            </df>
+            <df name="cff">
+              <in>cf2arrst.c</in>
+              <in>cf2arrst.h</in>
+              <in>cf2blues.c</in>
+              <in>cf2blues.h</in>
+              <in>cf2error.c</in>
+              <in>cf2error.h</in>
+              <in>cf2fixed.h</in>
+              <in>cf2font.c</in>
+              <in>cf2font.h</in>
+              <in>cf2ft.c</in>
+              <in>cf2ft.h</in>
+              <in>cf2glue.h</in>
+              <in>cf2hints.c</in>
+              <in>cf2hints.h</in>
+              <in>cf2intrp.c</in>
+              <in>cf2intrp.h</in>
+              <in>cf2read.c</in>
+              <in>cf2read.h</in>
+              <in>cf2stack.c</in>
+              <in>cf2stack.h</in>
+              <in>cf2types.h</in>
+              <in>cff.c</in>
+              <in>cffcmap.c</in>
+              <in>cffcmap.h</in>
+              <in>cffdrivr.c</in>
+              <in>cffdrivr.h</in>
+              <in>cfferrs.h</in>
+              <in>cffgload.c</in>
+              <in>cffgload.h</in>
+              <in>cffload.c</in>
+              <in>cffload.h</in>
+              <in>cffobjs.c</in>
+              <in>cffobjs.h</in>
+              <in>cffparse.c</in>
+              <in>cffparse.h</in>
+              <in>cffpic.c</in>
+              <in>cffpic.h</in>
+              <in>cfftoken.h</in>
+              <in>cfftypes.h</in>
+            </df>
+            <df name="cid">
+              <in>ciderrs.h</in>
+              <in>cidgload.c</in>
+              <in>cidgload.h</in>
+              <in>cidload.c</in>
+              <in>cidload.h</in>
+              <in>cidobjs.c</in>
+              <in>cidobjs.h</in>
+              <in>cidparse.c</in>
+              <in>cidparse.h</in>
+              <in>cidriver.c</in>
+              <in>cidriver.h</in>
+              <in>cidtoken.h</in>
+              <in>type1cid.c</in>
+            </df>
+            <df name="gxvalid">
+              <in>gxvalid.c</in>
+              <in>gxvalid.h</in>
+              <in>gxvbsln.c</in>
+              <in>gxvcommn.c</in>
+              <in>gxvcommn.h</in>
+              <in>gxverror.h</in>
+              <in>gxvfeat.c</in>
+              <in>gxvfeat.h</in>
+              <in>gxvfgen.c</in>
+              <in>gxvjust.c</in>
+              <in>gxvkern.c</in>
+              <in>gxvlcar.c</in>
+              <in>gxvmod.c</in>
+              <in>gxvmod.h</in>
+              <in>gxvmort.c</in>
+              <in>gxvmort.h</in>
+              <in>gxvmort0.c</in>
+              <in>gxvmort1.c</in>
+              <in>gxvmort2.c</in>
+              <in>gxvmort4.c</in>
+              <in>gxvmort5.c</in>
+              <in>gxvmorx.c</in>
+              <in>gxvmorx.h</in>
+              <in>gxvmorx0.c</in>
+              <in>gxvmorx1.c</in>
+              <in>gxvmorx2.c</in>
+              <in>gxvmorx4.c</in>
+              <in>gxvmorx5.c</in>
+              <in>gxvopbd.c</in>
+              <in>gxvprop.c</in>
+              <in>gxvtrak.c</in>
+            </df>
+            <df name="gzip">
+              <in>adler32.c</in>
+              <in>ftgzip.c</in>
+              <in>infblock.c</in>
+              <in>infblock.h</in>
+              <in>infcodes.c</in>
+              <in>infcodes.h</in>
+              <in>inffixed.h</in>
+              <in>inflate.c</in>
+              <in>inftrees.c</in>
+              <in>inftrees.h</in>
+              <in>infutil.c</in>
+              <in>infutil.h</in>
+              <in>zconf.h</in>
+              <in>zlib.h</in>
+              <in>zutil.c</in>
+              <in>zutil.h</in>
+            </df>
+            <df name="lzw">
+              <in>ftlzw.c</in>
+              <in>ftzopen.c</in>
+              <in>ftzopen.h</in>
+            </df>
+            <df name="otvalid">
+              <in>otvalid.c</in>
+              <in>otvalid.h</in>
+              <in>otvbase.c</in>
+              <in>otvcommn.c</in>
+              <in>otvcommn.h</in>
+              <in>otverror.h</in>
+              <in>otvgdef.c</in>
+              <in>otvgpos.c</in>
+              <in>otvgpos.h</in>
+              <in>otvgsub.c</in>
+              <in>otvjstf.c</in>
+              <in>otvmath.c</in>
+              <in>otvmod.c</in>
+              <in>otvmod.h</in>
+            </df>
+            <df name="pcf">
+              <in>pcf.c</in>
+              <in>pcf.h</in>
+              <in>pcfdrivr.c</in>
+              <in>pcfdrivr.h</in>
+              <in>pcferror.h</in>
+              <in>pcfread.c</in>
+              <in>pcfread.h</in>
+              <in>pcfutil.c</in>
+              <in>pcfutil.h</in>
+            </df>
+            <df name="pfr">
+              <in>pfr.c</in>
+              <in>pfrcmap.c</in>
+              <in>pfrcmap.h</in>
+              <in>pfrdrivr.c</in>
+              <in>pfrdrivr.h</in>
+              <in>pfrerror.h</in>
+              <in>pfrgload.c</in>
+              <in>pfrgload.h</in>
+              <in>pfrload.c</in>
+              <in>pfrload.h</in>
+              <in>pfrobjs.c</in>
+              <in>pfrobjs.h</in>
+              <in>pfrsbit.c</in>
+              <in>pfrsbit.h</in>
+              <in>pfrtypes.h</in>
+            </df>
+            <df name="psaux">
+              <in>afmparse.c</in>
+              <in>afmparse.h</in>
+              <in>psaux.c</in>
+              <in>psauxerr.h</in>
+              <in>psauxmod.c</in>
+              <in>psauxmod.h</in>
+              <in>psconv.c</in>
+              <in>psconv.h</in>
+              <in>psobjs.c</in>
+              <in>psobjs.h</in>
+              <in>t1cmap.c</in>
+              <in>t1cmap.h</in>
+              <in>t1decode.c</in>
+              <in>t1decode.h</in>
+            </df>
+            <df name="pshinter">
+              <in>pshalgo.c</in>
+              <in>pshalgo.h</in>
+              <in>pshglob.c</in>
+              <in>pshglob.h</in>
+              <in>pshinter.c</in>
+              <in>pshmod.c</in>
+              <in>pshmod.h</in>
+              <in>pshnterr.h</in>
+              <in>pshpic.c</in>
+              <in>pshpic.h</in>
+              <in>pshrec.c</in>
+              <in>pshrec.h</in>
+            </df>
+            <df name="psnames">
+              <in>psmodule.c</in>
+              <in>psmodule.h</in>
+              <in>psnamerr.h</in>
+              <in>psnames.c</in>
+              <in>pspic.c</in>
+              <in>pspic.h</in>
+              <in>pstables.h</in>
+            </df>
+            <df name="raster">
+              <in>ftmisc.h</in>
+              <in>ftraster.c</in>
+              <in>ftraster.h</in>
+              <in>ftrend1.c</in>
+              <in>ftrend1.h</in>
+              <in>raster.c</in>
+              <in>rasterrs.h</in>
+              <in>rastpic.c</in>
+              <in>rastpic.h</in>
+            </df>
+            <df name="sfnt">
+              <in>pngshim.c</in>
+              <in>pngshim.h</in>
+              <in>sfdriver.c</in>
+              <in>sfdriver.h</in>
+              <in>sferrors.h</in>
+              <in>sfnt.c</in>
+              <in>sfntpic.c</in>
+              <in>sfntpic.h</in>
+              <in>sfobjs.c</in>
+              <in>sfobjs.h</in>
+              <in>ttbdf.c</in>
+              <in>ttbdf.h</in>
+              <in>ttcmap.c</in>
+              <in>ttcmap.h</in>
+              <in>ttcmapc.h</in>
+              <in>ttkern.c</in>
+              <in>ttkern.h</in>
+              <in>ttload.c</in>
+              <in>ttload.h</in>
+              <in>ttmtx.c</in>
+              <in>ttmtx.h</in>
+              <in>ttpost.c</in>
+              <in>ttpost.h</in>
+              <in>ttsbit.c</in>
+              <in>ttsbit.h</in>
+            </df>
+            <df name="smooth">
+              <in>ftgrays.c</in>
+              <in>ftgrays.h</in>
+              <in>ftsmerrs.h</in>
+              <in>ftsmooth.c</in>
+              <in>ftsmooth.h</in>
+              <in>ftspic.c</in>
+              <in>ftspic.h</in>
+              <in>smooth.c</in>
+            </df>
+            <df name="tools">
+              <df name="ftrandom">
+                <in>ftrandom.c</in>
+              </df>
+              <in>apinames.c</in>
+              <in>test_afm.c</in>
+              <in>test_bbox.c</in>
+              <in>test_trig.c</in>
+            </df>
+            <df name="truetype">
+              <in>truetype.c</in>
+              <in>ttdriver.c</in>
+              <in>ttdriver.h</in>
+              <in>tterrors.h</in>
+              <in>ttgload.c</in>
+              <in>ttgload.h</in>
+              <in>ttgxvar.c</in>
+              <in>ttgxvar.h</in>
+              <in>ttinterp.c</in>
+              <in>ttinterp.h</in>
+              <in>ttobjs.c</in>
+              <in>ttobjs.h</in>
+              <in>ttpic.c</in>
+              <in>ttpic.h</in>
+              <in>ttpload.c</in>
+              <in>ttpload.h</in>
+              <in>ttsubpix.c</in>
+              <in>ttsubpix.h</in>
+            </df>
+            <df name="type1">
+              <in>t1afm.c</in>
+              <in>t1afm.h</in>
+              <in>t1driver.c</in>
+              <in>t1driver.h</in>
+              <in>t1errors.h</in>
+              <in>t1gload.c</in>
+              <in>t1gload.h</in>
+              <in>t1load.c</in>
+              <in>t1load.h</in>
+              <in>t1objs.c</in>
+              <in>t1objs.h</in>
+              <in>t1parse.c</in>
+              <in>t1parse.h</in>
+              <in>t1tokens.h</in>
+              <in>type1.c</in>
+            </df>
+            <df name="type42">
+              <in>t42drivr.c</in>
+              <in>t42drivr.h</in>
+              <in>t42error.h</in>
+              <in>t42objs.c</in>
+              <in>t42objs.h</in>
+              <in>t42parse.c</in>
+              <in>t42parse.h</in>
+              <in>t42types.h</in>
+              <in>type42.c</in>
+            </df>
+            <df name="winfonts">
+              <in>fnterrs.h</in>
+              <in>winfnt.c</in>
+              <in>winfnt.h</in>
+            </df>
+          </df>
+        </df>
+        <df name="glew">
+          <df name="include">
+            <df name="GL">
+              <in>glew.h</in>
+              <in>glxew.h</in>
+              <in>wglew.h</in>
+            </df>
+          </df>
+          <df name="src">
+            <in>glew.c</in>
+            <in>glewinfo.c</in>
+            <in>visualinfo.c</in>
+          </df>
+        </df>
+        <df name="glfw">
+          <df name="deps">
+            <df name="EGL">
+              <in>eglext.h</in>
+            </df>
+            <df name="GL">
+              <in>glext.h</in>
+              <in>glxext.h</in>
+              <in>wglext.h</in>
+            </df>
+            <df name="glad">
+              <in>glad.h</in>
+            </df>
+            <df name="KHR">
+              <in>khrplatform.h</in>
+            </df>
+            <in>getopt.c</in>
+            <in>getopt.h</in>
+            <in>glad.c</in>
+            <in>tinycthread.c</in>
+            <in>tinycthread.h</in>
+          </df>
+          <df name="examples">
+            <in>boing.c</in>
+            <in>gears.c</in>
+            <in>heightmap.c</in>
+            <in>particles.c</in>
+            <in>simple.c</in>
+            <in>splitview.c</in>
+            <in>wave.c</in>
+          </df>
+          <df name="include">
+            <df name="GLFW">
+              <in>glfw3.h</in>
+              <in>glfw3native.h</in>
+            </df>
+          </df>
+          <df name="src">
+            <in>clipboard.c</in>
+            <in>cocoa_clipboard.m</in>
+            <in>cocoa_gamma.c</in>
+            <in>cocoa_init.m</in>
+            <in>cocoa_monitor.m</in>
+            <in>cocoa_platform.h</in>
+            <in>cocoa_window.m</in>
+            <in>context.c</in>
+            <in>egl_context.c</in>
+            <in>egl_context.h</in>
+            <in>gamma.c</in>
+            <in>glx_context.c</in>
+            <in>glx_context.h</in>
+            <in>init.c</in>
+            <in>input.c</in>
+            <in>internal.h</in>
+            <in>iokit_joystick.h</in>
+            <in>iokit_joystick.m</in>
+            <in>joystick.c</in>
+            <in>linux_joystick.c</in>
+            <in>linux_joystick.h</in>
+            <in>mach_time.c</in>
+            <in>monitor.c</in>
+            <in>nsgl_context.h</in>
+            <in>nsgl_context.m</in>
+            <in>posix_time.c</in>
+            <in>posix_time.h</in>
+            <in>posix_tls.c</in>
+            <in>posix_tls.h</in>
+            <in>time.c</in>
+            <in>wgl_context.c</in>
+            <in>wgl_context.h</in>
+            <in>win32_clipboard.c</in>
+            <in>win32_gamma.c</in>
+            <in>win32_init.c</in>
+            <in>win32_monitor.c</in>
+            <in>win32_platform.h</in>
+            <in>win32_time.c</in>
+            <in>win32_tls.c</in>
+            <in>win32_tls.h</in>
+            <in>win32_window.c</in>
+            <in>window.c</in>
+            <in>winmm_joystick.c</in>
+            <in>winmm_joystick.h</in>
+            <in>wl_clipboard.c</in>
+            <in>wl_gamma.c</in>
+            <in>wl_init.c</in>
+            <in>wl_monitor.c</in>
+            <in>wl_platform.h</in>
+            <in>wl_window.c</in>
+            <in>x11_clipboard.c</in>
+            <in>x11_gamma.c</in>
+            <in>x11_init.c</in>
+            <in>x11_monitor.c</in>
+            <in>x11_platform.h</in>
+            <in>x11_window.c</in>
+            <in>xkb_unicode.c</in>
+            <in>xkb_unicode.h</in>
+          </df>
+          <df name="tests">
+            <in>accuracy.c</in>
+            <in>clipboard.c</in>
+            <in>cursor.c</in>
+            <in>cursoranim.c</in>
+            <in>defaults.c</in>
+            <in>empty.c</in>
+            <in>events.c</in>
+            <in>fsaa.c</in>
+            <in>gamma.c</in>
+            <in>glfwinfo.c</in>
+            <in>iconify.c</in>
+            <in>joysticks.c</in>
+            <in>modes.c</in>
+            <in>peter.c</in>
+            <in>reopen.c</in>
+            <in>sharing.c</in>
+            <in>tearing.c</in>
+            <in>threads.c</in>
+            <in>title.c</in>
+            <in>windows.c</in>
+          </df>
+        </df>
+        <df name="glm">
+          <df name="glm">
+            <df name="detail">
+              <in>_features.hpp</in>
+              <in>_fixes.hpp</in>
+              <in>_literals.hpp</in>
+              <in>_noise.hpp</in>
+              <in>_swizzle.hpp</in>
+              <in>_swizzle_func.hpp</in>
+              <in>_vectorize.hpp</in>
+              <in>dummy.cpp</in>
+              <in>func_common.hpp</in>
+              <in>func_exponential.hpp</in>
+              <in>func_geometric.hpp</in>
+              <in>func_integer.hpp</in>
+              <in>func_matrix.hpp</in>
+              <in>func_noise.hpp</in>
+              <in>func_packing.hpp</in>
+              <in>func_trigonometric.hpp</in>
+              <in>func_vector_relational.hpp</in>
+              <in>glm.cpp</in>
+              <in>hint.hpp</in>
+              <in>intrinsic_common.hpp</in>
+              <in>intrinsic_exponential.hpp</in>
+              <in>intrinsic_geometric.hpp</in>
+              <in>intrinsic_integer.hpp</in>
+              <in>intrinsic_matrix.hpp</in>
+              <in>intrinsic_trigonometric.hpp</in>
+              <in>intrinsic_vector_relational.hpp</in>
+              <in>precision.hpp</in>
+              <in>setup.hpp</in>
+              <in>type_float.hpp</in>
+              <in>type_gentype.hpp</in>
+              <in>type_half.hpp</in>
+              <in>type_int.hpp</in>
+              <in>type_mat.hpp</in>
+              <in>type_mat2x2.hpp</in>
+              <in>type_mat2x3.hpp</in>
+              <in>type_mat2x4.hpp</in>
+              <in>type_mat3x2.hpp</in>
+              <in>type_mat3x3.hpp</in>
+              <in>type_mat3x4.hpp</in>
+              <in>type_mat4x2.hpp</in>
+              <in>type_mat4x3.hpp</in>
+              <in>type_mat4x4.hpp</in>
+              <in>type_vec.hpp</in>
+              <in>type_vec1.hpp</in>
+              <in>type_vec2.hpp</in>
+              <in>type_vec3.hpp</in>
+              <in>type_vec4.hpp</in>
+            </df>
+            <df name="gtc">
+              <in>constants.hpp</in>
+              <in>epsilon.hpp</in>
+              <in>matrix_access.hpp</in>
+              <in>matrix_integer.hpp</in>
+              <in>matrix_inverse.hpp</in>
+              <in>matrix_transform.hpp</in>
+              <in>noise.hpp</in>
+              <in>packing.hpp</in>
+              <in>quaternion.hpp</in>
+              <in>random.hpp</in>
+              <in>reciprocal.hpp</in>
+              <in>type_precision.hpp</in>
+              <in>type_ptr.hpp</in>
+              <in>ulp.hpp</in>
+              <in>user_defined_type.hpp</in>
+            </df>
+            <df name="gtx">
+              <in>associated_min_max.hpp</in>
+              <in>bit.hpp</in>
+              <in>closest_point.hpp</in>
+              <in>color_space.hpp</in>
+              <in>color_space_YCoCg.hpp</in>
+              <in>compatibility.hpp</in>
+              <in>component_wise.hpp</in>
+              <in>dual_quaternion.hpp</in>
+              <in>euler_angles.hpp</in>
+              <in>extend.hpp</in>
+              <in>extented_min_max.hpp</in>
+              <in>fast_exponential.hpp</in>
+              <in>fast_square_root.hpp</in>
+              <in>fast_trigonometry.hpp</in>
+              <in>gradient_paint.hpp</in>
+              <in>handed_coordinate_space.hpp</in>
+              <in>inertia.hpp</in>
+              <in>integer.hpp</in>
+              <in>intersect.hpp</in>
+              <in>io.hpp</in>
+              <in>log_base.hpp</in>
+              <in>matrix_cross_product.hpp</in>
+              <in>matrix_interpolation.hpp</in>
+              <in>matrix_major_storage.hpp</in>
+              <in>matrix_operation.hpp</in>
+              <in>matrix_query.hpp</in>
+              <in>matrix_transform_2d.hpp</in>
+              <in>mixed_product.hpp</in>
+              <in>multiple.hpp</in>
+              <in>norm.hpp</in>
+              <in>normal.hpp</in>
+              <in>normalize_dot.hpp</in>
+              <in>number_precision.hpp</in>
+              <in>optimum_pow.hpp</in>
+              <in>orthonormalize.hpp</in>
+              <in>perpendicular.hpp</in>
+              <in>polar_coordinates.hpp</in>
+              <in>projection.hpp</in>
+              <in>quaternion.hpp</in>
+              <in>raw_data.hpp</in>
+              <in>rotate_normalized_axis.hpp</in>
+              <in>rotate_vector.hpp</in>
+              <in>scalar_relational.hpp</in>
+              <in>simd_mat4.hpp</in>
+              <in>simd_quat.hpp</in>
+              <in>simd_vec4.hpp</in>
+              <in>spline.hpp</in>
+              <in>std_based_type.hpp</in>
+              <in>string_cast.hpp</in>
+              <in>transform.hpp</in>
+              <in>transform2.hpp</in>
+              <in>vec1.hpp</in>
+              <in>vector_angle.hpp</in>
+              <in>vector_query.hpp</in>
+              <in>wrap.hpp</in>
+            </df>
+            <in>common.hpp</in>
+            <in>exponential.hpp</in>
+            <in>ext.hpp</in>
+            <in>fwd.hpp</in>
+            <in>geometric.hpp</in>
+            <in>glm.hpp</in>
+            <in>integer.hpp</in>
+            <in>mat2x2.hpp</in>
+            <in>mat2x3.hpp</in>
+            <in>mat2x4.hpp</in>
+            <in>mat3x2.hpp</in>
+            <in>mat3x3.hpp</in>
+            <in>mat3x4.hpp</in>
+            <in>mat4x2.hpp</in>
+            <in>mat4x3.hpp</in>
+            <in>mat4x4.hpp</in>
+            <in>matrix.hpp</in>
+            <in>packing.hpp</in>
+            <in>trigonometric.hpp</in>
+            <in>vec2.hpp</in>
+            <in>vec3.hpp</in>
+            <in>vec4.hpp</in>
+            <in>vector_relational.hpp</in>
+          </df>
+          <df name="test">
+            <df name="core">
+              <in>core_func_common.cpp</in>
+              <in>core_func_exponential.cpp</in>
+              <in>core_func_geometric.cpp</in>
+              <in>core_func_integer.cpp</in>
+              <in>core_func_matrix.cpp</in>
+              <in>core_func_noise.cpp</in>
+              <in>core_func_packing.cpp</in>
+              <in>core_func_swizzle.cpp</in>
+              <in>core_func_trigonometric.cpp</in>
+              <in>core_func_vector_relational.cpp</in>
+              <in>core_setup_message.cpp</in>
+              <in>core_setup_precision.cpp</in>
+              <in>core_type_cast.cpp</in>
+              <in>core_type_float.cpp</in>
+              <in>core_type_int.cpp</in>
+              <in>core_type_length.cpp</in>
+              <in>core_type_mat2x2.cpp</in>
+              <in>core_type_mat2x3.cpp</in>
+              <in>core_type_mat2x4.cpp</in>
+              <in>core_type_mat3x2.cpp</in>
+              <in>core_type_mat3x3.cpp</in>
+              <in>core_type_mat3x4.cpp</in>
+              <in>core_type_mat4x2.cpp</in>
+              <in>core_type_mat4x3.cpp</in>
+              <in>core_type_mat4x4.cpp</in>
+              <in>core_type_vec1.cpp</in>
+              <in>core_type_vec2.cpp</in>
+              <in>core_type_vec3.cpp</in>
+              <in>core_type_vec4.cpp</in>
+            </df>
+            <df name="external">
+              <df name="gli">
+                <df name="core">
+                  <in>dummy.cpp</in>
+                  <in>generate_mipmaps.hpp</in>
+                  <in>image2d.hpp</in>
+                  <in>operation.hpp</in>
+                  <in>operator.hpp</in>
+                  <in>shared_array.hpp</in>
+                  <in>shared_ptr.hpp</in>
+                  <in>size.hpp</in>
+                  <in>texture2d.hpp</in>
+                  <in>texture2d_array.hpp</in>
+                  <in>texture_cube.hpp</in>
+                  <in>texture_cube_array.hpp</in>
+                </df>
+                <df name="gtx">
+                  <in>compression.hpp</in>
+                  <in>fetch.hpp</in>
+                  <in>gl_texture2d.hpp</in>
+                  <in>gradient.hpp</in>
+                  <in>loader.hpp</in>
+                  <in>loader_dds10.hpp</in>
+                  <in>loader_dds9.hpp</in>
+                  <in>loader_tga.hpp</in>
+                  <in>wavelet.hpp</in>
+                </df>
+                <in>gli.hpp</in>
+              </df>
+            </df>
+            <df name="gtc">
+              <in>gtc_constants.cpp</in>
+              <in>gtc_epsilon.cpp</in>
+              <in>gtc_matrix_access.cpp</in>
+              <in>gtc_matrix_integer.cpp</in>
+              <in>gtc_matrix_inverse.cpp</in>
+              <in>gtc_matrix_transform.cpp</in>
+              <in>gtc_noise.cpp</in>
+              <in>gtc_packing.cpp</in>
+              <in>gtc_quaternion.cpp</in>
+              <in>gtc_random.cpp</in>
+              <in>gtc_reciprocal.cpp</in>
+              <in>gtc_type_precision.cpp</in>
+              <in>gtc_type_ptr.cpp</in>
+              <in>gtc_ulp.cpp</in>
+              <in>gtc_user_defined_types.cpp</in>
+            </df>
+            <df name="gtx">
+              <in>gtx_associated_min_max.cpp</in>
+              <in>gtx_bit.cpp</in>
+              <in>gtx_closest_point.cpp</in>
+              <in>gtx_color_space.cpp</in>
+              <in>gtx_color_space_YCoCg.cpp</in>
+              <in>gtx_compatibility.cpp</in>
+              <in>gtx_component_wise.cpp</in>
+              <in>gtx_dual_quaternion.cpp</in>
+              <in>gtx_euler_angle.cpp</in>
+              <in>gtx_extend.cpp</in>
+              <in>gtx_extented_min_max.cpp</in>
+              <in>gtx_fast_exponential.cpp</in>
+              <in>gtx_fast_square_root.cpp</in>
+              <in>gtx_fast_trigonometry.cpp</in>
+              <in>gtx_gradient_paint.cpp</in>
+              <in>gtx_handed_coordinate_space.cpp</in>
+              <in>gtx_inertia.cpp</in>
+              <in>gtx_int_10_10_10_2.cpp</in>
+              <in>gtx_integer.cpp</in>
+              <in>gtx_intersect.cpp</in>
+              <in>gtx_io.cpp</in>
+              <in>gtx_log_base.cpp</in>
+              <in>gtx_matrix_cross_product.cpp</in>
+              <in>gtx_matrix_interpolation.cpp</in>
+              <in>gtx_matrix_major_storage.cpp</in>
+              <in>gtx_matrix_operation.cpp</in>
+              <in>gtx_matrix_query.cpp</in>
+              <in>gtx_matrix_transform_2d.cpp</in>
+              <in>gtx_mixed_product.cpp</in>
+              <in>gtx_multiple.cpp</in>
+              <in>gtx_norm.cpp</in>
+              <in>gtx_normal.cpp</in>
+              <in>gtx_normalize_dot.cpp</in>
+              <in>gtx_number_precision.cpp</in>
+              <in>gtx_optimum_pow.cpp</in>
+              <in>gtx_orthonormalize.cpp</in>
+              <in>gtx_perpendicular.cpp</in>
+              <in>gtx_polar_coordinates.cpp</in>
+              <in>gtx_projection.cpp</in>
+              <in>gtx_quaternion.cpp</in>
+              <in>gtx_random.cpp</in>
+              <in>gtx_rotate_normalized_axis.cpp</in>
+              <in>gtx_rotate_vector.cpp</in>
+              <in>gtx_scalar_relational.cpp</in>
+              <in>gtx_simd_mat4.cpp</in>
+              <in>gtx_simd_vec4.cpp</in>
+              <in>gtx_spline.cpp</in>
+              <in>gtx_string_cast.cpp</in>
+              <in>gtx_vector_angle.cpp</in>
+              <in>gtx_vector_query.cpp</in>
+            </df>
+          </df>
+        </df>
+      </df>
+      <df name="font">
+        <in>DistMap.cpp</in>
+        <in>DistMap.h</in>
+        <in>Font.cpp</in>
+        <in>Font.h</in>
+        <in>FreeType.cpp</in>
+        <in>FreeType.h</in>
+        <in>GlyphData.cpp</in>
+        <in>GlyphData.h</in>
+        <in>Hash.cpp</in>
+        <in>Hash.h</in>
+        <in>Matrix.cpp</in>
+        <in>Matrix.h</in>
+        <in>Print.cpp</in>
+        <in>Print.h</in>
+        <in>Vec2.cpp</in>
+        <in>Vec2.h</in>
+      </df>
+      <df name="gl">
+        <in>Program.cpp</in>
+        <in>Program.h</in>
+        <in>Shader.cpp</in>
+        <in>Shader.h</in>
+        <in>TextureManager.cpp</in>
+        <in>TextureManager.h</in>
+      </df>
+      <df name="res">
+        <df name="shader">
+          <in>fontFragment.c</in>
+          <in>fontVertex.c</in>
+          <in>fragment.c</in>
+          <in>fragment2.c</in>
+          <in>vertex.c</in>
+          <in>vertex2.c</in>
+        </df>
+      </df>
+      <in>BlockMatrix.cpp</in>
+      <in>BlockMatrix.h</in>
+      <in>CQT.cpp</in>
+      <in>CQT.h</in>
+      <in>Kern.cpp</in>
+      <in>Kern.h</in>
+      <in>main.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>nbproject/private/launcher.properties</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>..</Elem>
+  </sourceRootList>
+  <projectmakefile></projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>../build</buildCommandWorkingDir>
+          <buildCommand>echo build</buildCommand>
+          <cleanCommand>echo clean</cleanCommand>
+          <executablePath>..\build\CQTTest.exe</executablePath>
+          <cTool>
+            <standard>10</standard>
+            <incDir>
+              <pElem>../ext/glew/include</pElem>
+              <pElem>../ext/glfw/include</pElem>
+            </incDir>
+          </cTool>
+          <ccTool>
+            <standard>11</standard>
+            <incDir>
+              <pElem>../../libs/include</pElem>
+            </incDir>
+          </ccTool>
+        </makeTool>
+        <preBuild>
+          <preBuildCommandWorkingDir>.</preBuildCommandWorkingDir>
+          <preBuildCommand></preBuildCommand>
+        </preBuild>
+      </makefileType>
+      <item path="../BlockMatrix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../BlockMatrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../CQT.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../CQT.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../Kern.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../Kern.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../build/CMakeFiles/3.0.1/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../build/CMakeFiles/3.0.1/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../build/CMakeFiles/3.1.0/CompilerIdC/CMakeCCompilerId.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../build/CMakeFiles/3.1.0/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../build/ext/freetype/include/ftconfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../build/ext/glfw/src/glfw_config.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../build/res/shader/fontFragment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../build/res/shader/fontVertex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../build/res/shader/fragment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../build/res/shader/vertex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../build/shader/fontFragment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../build/shader/fontVertex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../build/shader/fragment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../build/shader/vertex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/amiga/include/config/ftconfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/amiga/include/config/ftmodule.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/amiga/src/base/ftdebug.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/amiga/src/base/ftsystem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/atari/ATARI.H"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/mac/ftmac.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/unix/ftsystem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/vms/ftconfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/vms/ftsystem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/wince/ftdebug.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/builds/windows/ftdebug.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/devel/ft2build.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/devel/ftoption.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/config/ftconfig.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/config/ftheader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/config/ftmodule.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/config/ftoption.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/config/ftstdlib.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/freetype.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ft2build.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftadvanc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftautoh.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftbbox.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftbdf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftbitmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftbzip2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftcache.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftcffdrv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftchapters.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftcid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftconfig.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/fterrdef.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/fterrors.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftgasp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftglyph.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftgxval.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftgzip.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftimage.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftincrem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftlcdfil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftlist.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftlzw.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftmac.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftmm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftmodapi.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftmoderr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftotval.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftoutln.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftpfr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftrender.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftsizes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftsnames.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftstroke.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftsynth.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftsystem.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/fttrigon.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftttdrv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/fttypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftwinfnt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ftxf86.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/autohint.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftcalc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftdebug.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftdriver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftgloadr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftmemory.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftobjs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftpic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftrfork.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftserv.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftstream.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/fttrace.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/ftvalid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/internal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/psaux.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/pshints.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svbdf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svcid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svgldict.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svgxval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svkern.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svmm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svotval.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svpfr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svpostnm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svprop.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svpscmap.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svpsinfo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svsfnt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svttcmap.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svtteng.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svttglyf.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svwinfnt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/services/svxf86nm.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/sfnt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/t1types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/internal/tttypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/t1tables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ttnameid.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/tttables.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/tttags.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/include/ttunpat.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afangles.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afangles.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afblue.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afblue.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afcjk.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afcjk.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afcover.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afdummy.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afdummy.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/aferrors.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afglobal.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afglobal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afhints.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afhints.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afindic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afindic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/aflatin.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/aflatin.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/aflatin2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/aflatin2.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afloader.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afloader.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afmodule.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afmodule.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afpic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afpic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afranges.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afranges.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afscript.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afstyles.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/aftypes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afwarp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afwarp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/afwrtsys.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/autofit.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/hbshim.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/autofit/hbshim.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/basepic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/basepic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftadvanc.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftapi.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftbase.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftbase.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftbbox.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftbdf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftbitmap.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftcalc.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftcid.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftdbgmem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftdebug.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftfstype.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftgasp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftgloadr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftglyph.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftgxval.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftinit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftlcdfil.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftmac.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftmm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftobjs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftotval.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftoutln.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftpatent.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftpfr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftpic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftrfork.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftsnames.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftstream.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftstroke.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftsynth.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftsystem.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/fttrigon.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/fttype1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftutil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftwinfnt.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/ftxf86.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/md5.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/base/md5.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/bdf/bdf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/bdf/bdf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/bdf/bdfdrivr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/bdf/bdfdrivr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/bdf/bdferror.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/bdf/bdflib.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/bzip2/ftbzip2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcache.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcbasic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftccache.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftccache.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftccback.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftccmap.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcerror.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcglyph.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcglyph.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcimage.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcimage.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcmanag.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcmanag.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcmru.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcmru.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcsbits.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cache/ftcsbits.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2arrst.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2arrst.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2blues.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2blues.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2error.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2error.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2fixed.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2font.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2font.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2ft.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2ft.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2glue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2hints.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2hints.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2intrp.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2intrp.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2read.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2read.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2stack.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2stack.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cf2types.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cff.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffcmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffcmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffdrivr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffdrivr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cfferrs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffgload.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffgload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffload.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffobjs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffobjs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffparse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffparse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffpic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cffpic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cfftoken.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cff/cfftypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/ciderrs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidgload.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidgload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidload.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidobjs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidobjs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidparse.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidparse.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidriver.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidriver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/cidtoken.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/cid/type1cid.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvalid.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvalid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvbsln.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvcommn.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvcommn.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxverror.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvfeat.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvfeat.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvfgen.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvjust.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvkern.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvlcar.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmod.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmod.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmort.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmort.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmort0.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmort1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmort2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmort4.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmort5.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmorx.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmorx.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmorx0.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmorx1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmorx2.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmorx4.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvmorx5.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvopbd.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvprop.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gxvalid/gxvtrak.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/adler32.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/ftgzip.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/infblock.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/infblock.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/infcodes.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/infcodes.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/inffixed.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/inflate.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/inftrees.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/inftrees.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/infutil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/infutil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/zconf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/zlib.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/zutil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/gzip/zutil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/lzw/ftlzw.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/lzw/ftzopen.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/lzw/ftzopen.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvalid.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvalid.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvbase.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvcommn.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvcommn.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otverror.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvgdef.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvgpos.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvgpos.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvgsub.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvjstf.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvmath.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvmod.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/otvalid/otvmod.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pcf/pcf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pcf/pcf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pcf/pcfdrivr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pcf/pcfdrivr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pcf/pcferror.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pcf/pcfread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pcf/pcfread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pcf/pcfutil.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pcf/pcfutil.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrcmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrcmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrdrivr.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrdrivr.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrerror.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrgload.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrgload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrload.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrobjs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrobjs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrsbit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrsbit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pfr/pfrtypes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/afmparse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/afmparse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/psaux.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/psauxerr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/psauxmod.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/psauxmod.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/psconv.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/psconv.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/psobjs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/psobjs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/t1cmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/t1cmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/t1decode.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psaux/t1decode.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshalgo.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshalgo.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshglob.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshglob.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshinter.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshmod.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshmod.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshnterr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshpic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshpic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshrec.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/pshinter/pshrec.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psnames/psmodule.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psnames/psmodule.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psnames/psnamerr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psnames/psnames.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psnames/pspic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psnames/pspic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/psnames/pstables.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/raster/ftmisc.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/raster/ftraster.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/raster/ftraster.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/raster/ftrend1.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/raster/ftrend1.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/raster/raster.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/raster/rasterrs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/raster/rastpic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/raster/rastpic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/pngshim.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/pngshim.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/sfdriver.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/sfdriver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/sferrors.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/sfnt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/sfntpic.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/sfntpic.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/sfobjs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/sfobjs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttbdf.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttbdf.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttcmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttcmap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttcmapc.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttkern.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttkern.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttload.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttload.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttmtx.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttmtx.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttpost.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttpost.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttsbit.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/sfnt/ttsbit.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/smooth/ftgrays.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/smooth/ftgrays.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/smooth/ftsmerrs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/smooth/ftsmooth.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/smooth/ftsmooth.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/smooth/ftspic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/smooth/ftspic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/smooth/smooth.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/tools/apinames.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/tools/ftrandom/ftrandom.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/tools/test_afm.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/tools/test_bbox.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/tools/test_trig.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/truetype.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttdriver.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttdriver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/tterrors.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttgload.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttgload.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttgxvar.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttgxvar.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttinterp.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttinterp.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttobjs.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttobjs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttpic.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttpic.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttpload.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttpload.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttsubpix.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/truetype/ttsubpix.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1afm.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1afm.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1driver.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1driver.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1errors.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1gload.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1gload.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1load.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1load.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1objs.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1objs.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1parse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1parse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/t1tokens.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type1/type1.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type42/t42drivr.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type42/t42drivr.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type42/t42error.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type42/t42objs.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type42/t42objs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type42/t42parse.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type42/t42parse.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type42/t42types.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/type42/type42.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/winfonts/fnterrs.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/winfonts/winfnt.c"
+            ex="false"
+            tool="0"
+            flavor2="0">
+      </item>
+      <item path="../ext/freetype/src/winfonts/winfnt.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glew/include/GL/glew.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glew/include/GL/glxew.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glew/include/GL/wglew.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glew/src/glew.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glew/src/glewinfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glew/src/visualinfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/EGL/eglext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/GL/glext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/GL/glxext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/GL/wglext.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/KHR/khrplatform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/getopt.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/getopt.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/glad.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/glad/glad.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/tinycthread.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/deps/tinycthread.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/examples/boing.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/examples/gears.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/examples/heightmap.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/examples/particles.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/examples/simple.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/examples/splitview.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/examples/wave.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/include/GLFW/glfw3.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/include/GLFW/glfw3native.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/clipboard.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/cocoa_clipboard.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/cocoa_gamma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/cocoa_init.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/cocoa_monitor.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/cocoa_platform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/cocoa_window.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/context.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/egl_context.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/egl_context.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/gamma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/glx_context.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/glx_context.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/input.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/internal.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/iokit_joystick.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/iokit_joystick.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/joystick.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/linux_joystick.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/linux_joystick.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/mach_time.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/monitor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/nsgl_context.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/nsgl_context.m" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/posix_time.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/posix_time.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/posix_tls.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/posix_tls.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/time.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/wgl_context.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/wgl_context.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/win32_clipboard.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/win32_gamma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/win32_init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/win32_monitor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/win32_platform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/win32_time.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/win32_tls.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/win32_tls.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/win32_window.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/window.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/winmm_joystick.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/winmm_joystick.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/wl_clipboard.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/wl_gamma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/wl_init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/wl_monitor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/wl_platform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/wl_window.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/x11_clipboard.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/x11_gamma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/x11_init.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/x11_monitor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/x11_platform.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/x11_window.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/xkb_unicode.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/src/xkb_unicode.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/accuracy.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/clipboard.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/cursor.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/cursoranim.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/defaults.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/empty.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/events.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/fsaa.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/gamma.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/glfwinfo.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/iconify.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/joysticks.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/modes.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/peter.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/reopen.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/sharing.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/tearing.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/threads.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/title.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glfw/tests/windows.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/common.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/_features.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/_fixes.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/_literals.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/_noise.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/_swizzle.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/_swizzle_func.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/_vectorize.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/dummy.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/func_common.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/func_exponential.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/func_geometric.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/func_integer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/func_matrix.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/func_noise.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/func_packing.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/func_trigonometric.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/func_vector_relational.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/glm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/hint.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/intrinsic_common.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/intrinsic_exponential.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/intrinsic_geometric.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/intrinsic_integer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/intrinsic_matrix.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/intrinsic_trigonometric.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/intrinsic_vector_relational.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/precision.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/setup.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_float.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_gentype.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_half.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_int.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat2x2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat2x3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat2x4.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat3x2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat3x3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat3x4.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat4x2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat4x3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_mat4x4.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_vec.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_vec1.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_vec2.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_vec3.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/detail/type_vec4.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/exponential.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/ext.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/fwd.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/geometric.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/glm.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/constants.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/epsilon.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/matrix_access.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/matrix_integer.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/matrix_inverse.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/matrix_transform.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/noise.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/packing.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/quaternion.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/random.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/reciprocal.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/type_precision.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/type_ptr.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/ulp.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtc/user_defined_type.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/associated_min_max.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/bit.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/closest_point.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/color_space.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/color_space_YCoCg.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/compatibility.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/component_wise.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/dual_quaternion.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/euler_angles.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/extend.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/extented_min_max.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/fast_exponential.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/fast_square_root.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/fast_trigonometry.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/gradient_paint.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/handed_coordinate_space.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/inertia.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/integer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/intersect.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/io.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/log_base.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/matrix_cross_product.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/matrix_interpolation.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/matrix_major_storage.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/matrix_operation.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/matrix_query.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/matrix_transform_2d.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/mixed_product.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/multiple.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/norm.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/normal.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/normalize_dot.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/number_precision.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/optimum_pow.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/orthonormalize.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/perpendicular.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/polar_coordinates.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/projection.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/quaternion.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/raw_data.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/rotate_normalized_axis.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/rotate_vector.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/scalar_relational.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/simd_mat4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/simd_quat.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/simd_vec4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/spline.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/std_based_type.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/string_cast.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/transform.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/transform2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/vec1.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/vector_angle.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/vector_query.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/gtx/wrap.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/integer.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/mat2x2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/mat2x3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/mat2x4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/mat3x2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/mat3x3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/mat3x4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/mat4x2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/mat4x3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/mat4x4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/matrix.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/packing.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/trigonometric.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/vec2.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/vec3.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/vec4.hpp" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../ext/glm/glm/vector_relational.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_common.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_exponential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_geometric.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_integer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_matrix.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_noise.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_packing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_swizzle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_trigonometric.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_func_vector_relational.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_setup_message.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_setup_precision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_cast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_float.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_int.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_length.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_mat2x2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_mat2x3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_mat2x4.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_mat3x2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_mat3x3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_mat3x4.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_mat4x2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_mat4x3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_mat4x4.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_vec1.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_vec2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_vec3.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/core/core_type_vec4.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/dummy.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/generate_mipmaps.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/image2d.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/operation.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/operator.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/shared_array.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/shared_ptr.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/size.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/texture2d.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/texture2d_array.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/texture_cube.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/core/texture_cube_array.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gli.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gtx/compression.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gtx/fetch.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gtx/gl_texture2d.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gtx/gradient.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gtx/loader.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gtx/loader_dds10.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gtx/loader_dds9.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gtx/loader_tga.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/external/gli/gtx/wavelet.hpp"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_constants.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_epsilon.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_matrix_access.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_matrix_integer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_matrix_inverse.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_matrix_transform.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_noise.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_packing.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_quaternion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_random.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_reciprocal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_type_precision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_type_ptr.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_ulp.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtc/gtc_user_defined_types.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_associated_min_max.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_bit.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_closest_point.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_color_space.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_color_space_YCoCg.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_compatibility.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_component_wise.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_dual_quaternion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_euler_angle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_extend.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_extented_min_max.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_fast_exponential.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_fast_square_root.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_fast_trigonometry.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_gradient_paint.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_handed_coordinate_space.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_inertia.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_int_10_10_10_2.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_integer.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_intersect.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_io.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_log_base.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_matrix_cross_product.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_matrix_interpolation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_matrix_major_storage.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_matrix_operation.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_matrix_query.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_matrix_transform_2d.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_mixed_product.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_multiple.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_norm.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_normal.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_normalize_dot.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_number_precision.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_optimum_pow.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_orthonormalize.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_perpendicular.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_polar_coordinates.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_projection.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_quaternion.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_random.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_rotate_normalized_axis.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_rotate_vector.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_scalar_relational.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_simd_mat4.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_simd_vec4.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_spline.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_string_cast.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_vector_angle.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../ext/glm/test/gtx/gtx_vector_query.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="../font/DistMap.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../font/DistMap.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../font/Font.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../font/Font.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../font/FreeType.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../font/FreeType.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../font/GlyphData.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../font/GlyphData.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../font/Hash.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../font/Hash.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../font/Matrix.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../font/Matrix.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../font/Print.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../font/Print.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../font/Vec2.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../font/Vec2.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../gl/Program.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../gl/Program.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../gl/Shader.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../gl/Shader.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../gl/TextureManager.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../gl/TextureManager.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="../main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="../res/shader/fontFragment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../res/shader/fontVertex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../res/shader/fragment.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../res/shader/fragment2.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../res/shader/vertex.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="../res/shader/vertex2.c" ex="false" tool="0" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
